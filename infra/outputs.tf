@@ -13,9 +13,9 @@ output "private_key_pem" {
 	sensitive = true
 }
 
-output "ec2_public_ip" {
+ output "ec2_public_ip" {
 	value = aws_instance.web.public_ip
-}
+ }
 
 
 output "my_ip_used_for_ssh" {
