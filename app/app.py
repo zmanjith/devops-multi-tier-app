@@ -25,6 +25,7 @@ def home():
     return render_template_string(HOME_HTML)
 
 
+  
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('name', 'Guest')
