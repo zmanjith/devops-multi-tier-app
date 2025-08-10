@@ -24,12 +24,13 @@ RESULT_HTML = '''
 def home():
     return render_template_string(HOME_HTML)
 
+
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('name', 'Guest')
     return render_template_string(RESULT_HTML, name=name)
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
 
-    
