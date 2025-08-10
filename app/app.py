@@ -20,6 +20,7 @@ RESULT_HTML = '''
 <a href="/">Back to Home 2</a>
 '''
 
+
 @app.route('/', methods=['GET'])
 def home():
     return render_template_string(HOME_HTML)
