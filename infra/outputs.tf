@@ -24,3 +24,8 @@ value = var.my_ip
 
 }
 
+output "rds_endpoint" {
+	value = aws_db_instance.postgres.endpoint
+	description = "RDS PostgreSQL endpoint"
+}
+
