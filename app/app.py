@@ -5,7 +5,7 @@ app = Flask(__name__)
 HOME_HTML = '''
 <!doctype html>
 <title>Home</title>
-<h1>Welcome to the Basic Flask App final Version!</h1>
+<h1>Welcome to the Basic Flask App final Version2</h1>
 <form method="post" action="/submit">
   <label for="name">Enter your name:</label>
   <input type="text" id="name" name="name" required>
