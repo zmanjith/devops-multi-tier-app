@@ -41,7 +41,7 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /home/ubuntu/devops-multi-tier-app/app
+            cd /home/ec2-user/devops-multi-tier-app/app
             git pull origin main
             # If using systemd
             sudo systemctl restart flask-app
