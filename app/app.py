@@ -17,7 +17,7 @@ RESULT_HTML = '''
 <!doctype html>
 <title>Result</title>
 <h1>Hello, {{ name }}!</h1>
-<a href="/">Back to Home 2</a>
+<a href="/">Back to Home 3</a>
 '''
 
 
